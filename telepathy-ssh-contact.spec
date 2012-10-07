@@ -1,4 +1,3 @@
-# $Revision: 1.8 $, $Date: 2011/07/23 06:34:38 $
 Summary:	Tool to ease connecting with telepathy IM contacts via SSH
 Summary(pl.UTF-8):	Narzędzie ułatwiające łączenie się z kontaktami IM telepathy przez SSH
 Name:		telepathy-ssh-contact
@@ -54,10 +53,3 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) %{_libexecdir}/ssh-contact-service
 %{_datadir}/dbus-1/services/org.freedesktop.Telepathy.Client.SSHContact.service
 %{_datadir}/telepathy/clients/SSHContact.client
-
-%define date	%(echo `LC_ALL="C" date +"%a %b %d %Y"`)
-%changelog
-* %{date} PLD Team <feedback@pld-linux.org>
-All persons listed below can be reached at <cvs_login>@pld-linux.org
-
-$Log: simple.spec,v $
