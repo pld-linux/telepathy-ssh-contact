@@ -5,9 +5,9 @@ Version:	0.7
 Release:	1
 License:	GPL v2+
 Group:		Applications/Networking
-Source0:	http://telepathy.freedesktop.org/releases/ssh-contact/ssh-contact-%{version}.tar.gz
+Source0:	https://telepathy.freedesktop.org/releases/ssh-contact/ssh-contact-%{version}.tar.gz
 # Source0-md5:	2e98c1199c883980d4c8ef5fca4c5b70
-URL:		http://telepathy.freedesktop.org/wiki/SSH-Contact
+URL:		https://telepathy.freedesktop.org/
 BuildRequires:	glib2-devel >= 1:2.28
 BuildRequires:	intltool >= 0.35.0
 BuildRequires:	pkgconfig
